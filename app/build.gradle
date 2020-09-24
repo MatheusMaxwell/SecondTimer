@@ -40,4 +40,6 @@ dependencies {
     //smart animation
     implementation 'com.github.ratty3697:android-smart-animation-library:1.6'
 
+    implementation 'com.google.android.gms:play-services-ads:19.4.0'
+
 }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_total_time"
+        android:hint="@string/total_time"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textColorHint="#ACABAB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/edt_second_count"
+        android:hint="@string/start_count"
+        android:textSize="20dp"
+        android:inputType="number"
+        android:textColorHint="#ACABAB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:textSize="20dp"
+            android:text="@string/cancel"
+            android:textColor="#FFFFFF"
+            android:background="#B9BCBC"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/btn_confirm"
+
+            android:textSize="20dp"
+            android:text="OK"
+            android:textColor="#FFFFFF"
+            android:background="#ABDBF5"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

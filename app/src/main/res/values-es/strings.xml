@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecondTimer</string>
+    <string name="start_count">" Empieza a contar falta ... (segundos)"</string>
+    <string name="total_time">Tiempo total (segundos)</string>
+    <string name="cancel">Cancelar</string>
+    <string name="time_not_found">No se informó el tiempo.</string>
+    <string name="no_values">¡Valor (es) en blanco!</string>
+    <string name="start">COMIENZO</string>
+    <string name="insert_time">--> INSERTAR TIEMPO</string>
+    <string name="help">AYUDA --</string>
+    <string name="reset">REINICIAR</string>
+    <string name="start_pause">INICIAR/PAUSA</string>
+</resources>
